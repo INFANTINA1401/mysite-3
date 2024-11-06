@@ -8,7 +8,7 @@ from .models import Choice, Question
 
 # Owner function-based view (no changes needed)
 def owner(request):
-    return HttpResponse("Hello, world. c433ceb4 is the polls owner.")
+    return HttpResponse("Hello, world. 0a5ebbfe is the polls owner.")
 
 # IndexView using ListView
 class IndexView(generic.ListView):
